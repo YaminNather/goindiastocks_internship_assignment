@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:goindiastocks_internship_assignment/app_colors.dart';
-import 'package:goindiastocks_internship_assignment/models/purchase_details.dart';
+import 'package:goindiastocks_internship_assignment/models/purchase_detail.dart';
 import 'package:intl/intl.dart';
 import 'package:money2/money2.dart';
 import '../../enums/purchase_type.dart';

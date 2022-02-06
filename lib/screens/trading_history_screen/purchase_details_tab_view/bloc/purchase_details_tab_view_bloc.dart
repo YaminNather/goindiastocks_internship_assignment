@@ -1,6 +1,6 @@
 import 'package:bloc/bloc.dart';
 import 'package:equatable/equatable.dart';
-import 'package:goindiastocks_internship_assignment/models/purchase_details.dart';
+import 'package:goindiastocks_internship_assignment/models/purchase_detail.dart';
 import 'package:goindiastocks_internship_assignment/repositories/bulk_block_details_repository.dart';
 import 'package:goindiastocks_internship_assignment/utils/optional_parameter.dart';
 import 'package:flutter/material.dart';

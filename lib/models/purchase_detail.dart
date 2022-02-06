@@ -34,7 +34,7 @@ class PurchaseDetail {
 
     factory PurchaseDetail.fromJson(Map<String, dynamic> json) => PurchaseDetail(
         finCode: json["FinCode"],
-        clientName: json["ClientName"],
+        clientName: toSentenceCase(json["ClientName"].toLowerCase()),
         dealType: dealTypeFromDatabaseForm(json["DealType"]),
         quantity: int.parse(json["Quantity"]),
         value: double.parse(json["Value"]),
@@ -53,4 +53,9 @@ class PurchaseDetail {
         "DealDate": dealDate.toIso8601String(),
         "Exchange": exchange,
     };
+}
+
+String toSentenceCase(final String clientName) {
+  String r = clientName.replaceAllMapped(new RegExp(r'^\w|\s\w'), (match) => match[0].toString().toUpperCase());
+  return r;
 }

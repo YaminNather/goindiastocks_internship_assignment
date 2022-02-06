@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import 'package:goindiastocks_internship_assignment/models/purchase_details.dart';
+import 'package:goindiastocks_internship_assignment/models/purchase_detail.dart';
 import 'package:goindiastocks_internship_assignment/screens/trading_history_screen/purchase_details_tab_view/bloc/purchase_details_tab_view_bloc.dart';
 import 'package:goindiastocks_internship_assignment/screens/trading_history_screen/purchase_details_tab_view/deal_type_tab/deal_type_tab.dart';
 
